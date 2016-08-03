@@ -50,3 +50,11 @@ if os.path.isdir('parts-stages'):
     shutil.copy('parts-base/app/release/parts.jar', 'parts-stages/app/libs/parts.jar')
 if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-base/app/release/parts.jar', 'titles-imagetest/app/libs/parts.jar')
+
+print "Staging parts-mrefs...";
+if os.path.isdir('parts-actors'):
+    shutil.copy('parts-mrefs/app/release/mrefs.jar', 'parts-actors/app/libs/mrefs.jar')
+if os.path.isdir('parts-roles'):
+    shutil.copy('parts-mrefs/app/release/mrefs.jar', 'parts-roles/app/libs/mrefs.jar')
+if os.path.isdir('titles-imagetest'):
+    shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-imagetest/app/libs/mrefs.jar')
