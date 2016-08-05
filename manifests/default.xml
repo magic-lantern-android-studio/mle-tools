@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-j="4" />
+
+  <project name="magic-lantern-android-studio/mle-tools" remote="github" path="mle-tools"/>
+  <project name="magic-lantern-android-studio/core-math" remote="github" path="core-math"/>
+  <project name="magic-lantern-android-studio/core-runtime" remote="github" path="core-runtime"/>
+  <project name="magic-lantern-android-studio/parts-base" remote="github" path="parts-base"/>
+  <project name="magic-lantern-android-studio/parts-actors" remote="github" path="parts-actors"/>
+  <project name="magic-lantern-android-studio/parts-roles" remote="github" path="parts-roles"/>
+  <project name="magic-lantern-android-studio/parts-sets" remote="github" path="parts-sets"/>
+  <project name="magic-lantern-android-studio/parts-stages" remote="github" path="parts-stages"/>
+  <project name="magic-lantern-android-studio/parts-mrefs" remote="github" path="parts-mrefs"/>
+  <project name="magic-lantern-android-studio/parts-props" remote="github" path="parts-props"/>
+  <project name="magic-lantern-android-studio/titles-imagetest" remote="github" path="titles-imagetest"/>
+
+</manifest>
