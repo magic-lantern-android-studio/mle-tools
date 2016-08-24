@@ -20,6 +20,9 @@ if os.path.isdir('parts-stages'):
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('core-math/app/release/mlmath.jar', 'titles-imagetest/app/libs/mlmath.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('core-math/app/release/mlmath.jar', 'titles-modeltest/app/libs/mlmath.jar')
 
 print "Staging core-runtime...";
 print "\tUpdating parts-actors"
@@ -46,6 +49,9 @@ if os.path.isdir('parts-stages'):
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('core-runtime/app/release/mlert.jar', 'titles-imagetest/app/libs/mlert.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('core-runtime/app/release/mlert.jar', 'titles-modeltest/app/libs/mlert.jar')
 
 print "Staging parts-base...";
 print "\tUpdating parts-actors"
@@ -69,6 +75,9 @@ if os.path.isdir('parts-stages'):
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-base/app/release/parts.jar', 'titles-imagetest/app/libs/parts.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('parts-base/app/release/parts.jar', 'titles-modeltest/app/libs/parts.jar')
 
 print "Staging parts-mrefs...";
 print "\tUpdating parts-actors"
@@ -80,6 +89,9 @@ if os.path.isdir('parts-roles'):
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-imagetest/app/libs/mrefs.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-modeltest/app/libs/mrefs.jar')
 
 print "Staging parts-roles...";
 print "\tUpdating parts-roles"
@@ -91,6 +103,9 @@ if os.path.isdir('parts-sets'):
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-roles/app/release/roles.jar', 'titles-imagetest/app/libs/roles.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('parts-roles/app/release/roles.jar', 'titles-modeltest/app/libs/roless.jar')
 
 print "Staging parts-props...";
 print "\tUpdating parts-props"
@@ -99,6 +114,9 @@ if os.path.isdir('parts-actors'):
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-props/app/release/props.jar', 'titles-imagetest/app/libs/props.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('parts-props/app/release/props.jar', 'titles-modeltest/app/libs/props.jar')
 
 print "Staging parts-stages...";
 print "\tUpdating parts-staeges"
@@ -107,15 +125,24 @@ if os.path.isdir('parts-sets'):
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-stages/app/release/stages.jar', 'titles-imagetest/app/libs/stages.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('parts-stages/app/release/stages.jar', 'titles-modeltest/app/libs/stages.jar')
 
 print "Staging parts-sets...";
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-sets/app/release/sets.jar', 'titles-imagetest/app/libs/sets.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('parts-sets/app/release/sets.jar', 'titles-modeltest/app/libs/sets.jar')
 
 print "Staging parts-actors...";
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-actors/app/release/actors.jar', 'titles-imagetest/app/libs/actors.jar')
+print "\tUpdating titles-modeltest"
+if os.path.isdir('titles-modeltest'):
+    shutil.copy('parts-actors/app/release/actors.jar', 'titles-modeltest/app/libs/ators.jar')
 
 print "...Done"
