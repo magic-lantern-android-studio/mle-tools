@@ -8,6 +8,9 @@ import shutil
 import tempfile
 
 print "Staging core-math...";
+print "\tUpdating parts-props"
+if os.path.isdir('parts-props'):
+    shutil.copy('core-math/app/release/mlmath.jar', 'parts-props/app/libs/mlmath.jar')
 print "\tUpdating parts-roles"
 if os.path.isdir('parts-roles'):
     shutil.copy('core-math/app/release/mlmath.jar', 'parts-roles/app/libs/mlmath.jar')
@@ -17,6 +20,9 @@ if os.path.isdir('parts-sets'):
 print "\tUpdating parts-stages"
 if os.path.isdir('parts-stages'):
     shutil.copy('core-math/app/release/mlmath.jar', 'parts-stages/app/libs/mlmath.jar')
+print "\tUpdating parts-actors"
+if os.path.isdir('parts-actors'):
+    shutil.copy('core-math/app/release/mlmath.jar', 'parts-actors/app/libs/mlmath.jar')
 print "\tUpdating titles-imagetest"
 if os.path.isdir('titles-imagetest'):
     shutil.copy('core-math/app/release/mlmath.jar', 'titles-imagetest/app/libs/mlmath.jar')
