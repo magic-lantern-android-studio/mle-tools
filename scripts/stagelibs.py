@@ -149,6 +149,6 @@ if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-actors/app/release/actors.jar', 'titles-imagetest/app/libs/actors.jar')
 print "\tUpdating titles-modeltest"
 if os.path.isdir('titles-modeltest'):
-    shutil.copy('parts-actors/app/release/actors.jar', 'titles-modeltest/app/libs/ators.jar')
+    shutil.copy('parts-actors/app/release/actors.jar', 'titles-modeltest/app/libs/actors.jar')
 
 print "...Done"
