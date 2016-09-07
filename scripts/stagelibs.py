@@ -111,7 +111,7 @@ if os.path.isdir('titles-imagetest'):
     shutil.copy('parts-roles/app/release/roles.jar', 'titles-imagetest/app/libs/roles.jar')
 print "\tUpdating titles-modeltest"
 if os.path.isdir('titles-modeltest'):
-    shutil.copy('parts-roles/app/release/roles.jar', 'titles-modeltest/app/libs/roless.jar')
+    shutil.copy('parts-roles/app/release/roles.jar', 'titles-modeltest/app/libs/roles.jar')
 
 print "Staging parts-props...";
 print "\tUpdating parts-props"
