@@ -18,5 +18,6 @@
   <project name="magic-lantern-android-studio/parts-mrefs" remote="github" path="parts-mrefs"/>
   <project name="magic-lantern-android-studio/parts-props" remote="github" path="parts-props"/>
   <project name="magic-lantern-android-studio/titles-imagetest" remote="github" path="titles-imagetest"/>
+  <project name="magic-lantern-android-studio/titles-modeltest" remote="github" path="titles-modeltest"/>
 
 </manifest>
