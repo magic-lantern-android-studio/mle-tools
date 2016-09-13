@@ -41,6 +41,7 @@ def buildLibrary(project) :
     subprocess.check_call(['./gradlew', 'assembleDebug'])
     subprocess.check_call(['./gradlew', 'exportJar'])
     os.chdir(cwd)
+    subprocess.check_call(['./mle-tools/scripts/stagelibs.py', project])
     return
 
 # Build a specific project library in batch mode.
