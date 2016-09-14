@@ -11,7 +11,9 @@ import tempfile
 import subprocess
 
 # Initialize project list.
-g_projectSize = 11
+g_numLibraries = 9
+g_numTitles = 2
+g_projectSize = 12
 g_projects = [None] * g_projectSize
 g_projects[0] = "core-math"
 g_projects[1] = 'core-runtime'
@@ -24,6 +26,7 @@ g_projects[7] = "parts-sets"
 g_projects[8] = "parts-actors"
 g_projects[9] = "titles-imagetest"
 g_projects[10] = "titles-modeltest"
+g_projects[11] = "all"
 
 # List the available Magic Lantern projects to build.
 def listProjects() :
@@ -73,6 +76,14 @@ args = parser.parse_args()
 # Build selected project.
 index = getIndex(args.project)
 if index != -1 and index < 9 :
+    # Build library project.
     buildLibrary(g_projects[index])
-elif index >= 9 :
+elif index >= 9  and index < 11 :
+    # Build title project.
     buildTitle(g_projects[index])
+else :
+    # Build all projects.
+    for i in range(g_numLibraries) :
+        buildLibrary(g_projects[i])
+    for i in range(g_numTitles) :
+        buildTitle(g_projects[g_numLibraries + i])
