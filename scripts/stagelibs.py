@@ -117,6 +117,12 @@ def stagePartsBase() :
         print "\tUpdating titles-modeltest"
         shutil.copy('parts-base/app/release/parts.jar', 'titles-modeltest/app/libs/parts.jar')
         shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'titles-modeltest/min3d-debug/min3d-debug.aar')
+    if os.path.isdir('test-min3d_01'):
+        print "\tUpdating test-min3d_01"
+        shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'test-min3d_01/min3d-debug/min3d-debug.aar')
+    if os.path.isdir('test-min3d_02'):
+        print "\tUpdating test-min3d_02"
+        shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'test-min3d_02/min3d-debug/min3d-debug.aar')
     return
 
 # Stage parts-mrefs project.
