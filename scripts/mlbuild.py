@@ -12,8 +12,8 @@ import subprocess
 
 # Initialize project list.
 g_numLibraries = 9
-g_numTitles = 2
-g_projectSize = 12
+g_numTitles = 3
+g_projectSize = 13
 g_projects = [None] * g_projectSize
 g_projects[0] = "core-math"
 g_projects[1] = 'core-runtime'
@@ -26,7 +26,8 @@ g_projects[7] = "parts-sets"
 g_projects[8] = "parts-actors"
 g_projects[9] = "titles-imagetest"
 g_projects[10] = "titles-modeltest"
-g_projects[11] = "all"
+g_projects[11] = "titles-hellocube"
+g_projects[12] = "all"
 
 # List the available Magic Lantern projects to build.
 def listProjects() :
@@ -78,7 +79,7 @@ index = getIndex(args.project)
 if index != -1 and index < 9 :
     # Build library project.
     buildLibrary(g_projects[index])
-elif index >= 9  and index < 11 :
+elif index >= 9  and index < 12 :
     # Build title project.
     buildTitle(g_projects[index])
 else :

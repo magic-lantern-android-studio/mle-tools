@@ -4,7 +4,7 @@
 # Note that this is not an elegant solution since we are assuming that the name of the
 # projects are the same as the github repository.
 
-for i in core-math core-runtime parts-base parts-mrefs parts-roles parts-props parts-stages parts-sets parts-actors titles-imagetest titles-modeltest;
+for i in core-math core-runtime parts-base parts-mrefs parts-roles parts-props parts-stages parts-sets parts-actors titles-imagetest titles-modeltest titles-hellocube;
 do
     # Process Android project.
     echo $i;
