@@ -21,6 +21,6 @@
   <project name="magic-lantern-android-studio/titles-modeltest" remote="github" path="titles-modeltest"/>
   <project name="magic-lantern-android-studio/titles-hellocube" remote="github" path="titles-hellocube"/>
   <project name="magic-lantern-android-studio/test-min3d_01" remote="github" path="test-min3d_01"/>
-  <project name="magic-lantern-android-studio/test-min3d_02" remote="github" path="test_min3d_02"/>
+  <project name="magic-lantern-android-studio/test-min3d_02" remote="github" path="test-min3d_02"/>
 
 </manifest>
