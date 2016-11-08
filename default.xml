@@ -20,6 +20,7 @@
   <project name="magic-lantern-android-studio/titles-imagetest" remote="github" path="titles-imagetest"/>
   <project name="magic-lantern-android-studio/titles-modeltest" remote="github" path="titles-modeltest"/>
   <project name="magic-lantern-android-studio/titles-hellocube" remote="github" path="titles-hellocube"/>
+  <project name="magic-lantern-android-studio/titles-cubetest" remote="github" path="titles-cubetest"/>
   <project name="magic-lantern-android-studio/test-min3d_01" remote="github" path="test-min3d_01"/>
   <project name="magic-lantern-android-studio/test-min3d_02" remote="github" path="test-min3d_02"/>
 
