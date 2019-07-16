@@ -35,33 +35,43 @@ def stageCoreMath() :
     if os.path.isdir('parts-base'):
         print "\tUpdating parts-base"
         shutil.copy('core-math/app/release/mlmath.jar', 'parts-base/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'parts-base/app/libs/mlmath-sources.jar')
     if os.path.isdir('parts-props'):
         print "\tUpdating parts-props"
         shutil.copy('core-math/app/release/mlmath.jar', 'parts-props/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'parts-props/app/libs/mlmath-sources.jar')
     if os.path.isdir('parts-roles'):
         print "\tUpdating parts-roles"
         shutil.copy('core-math/app/release/mlmath.jar', 'parts-roles/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'parts-roles/app/libs/mlmath-sources.jar')
     if os.path.isdir('parts-sets'):
         print "\tUpdating parts-sets"
         shutil.copy('core-math/app/release/mlmath.jar', 'parts-sets/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'parts-sets/app/libs/mlmath-sources.jar')
     if os.path.isdir('parts-stages'):
         print "\tUpdating parts-stages"
         shutil.copy('core-math/app/release/mlmath.jar', 'parts-stages/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'parts-stages/app/libs/mlmath-sources.jar')
     if os.path.isdir('parts-actors'):
         print "\tUpdating parts-actors"
         shutil.copy('core-math/app/release/mlmath.jar', 'parts-actors/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'parts-actors/app/libs/mlmath-sources.jar')
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('core-math/app/release/mlmath.jar', 'titles-imagetest/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'titles-imagetest/app/libs/mlmath-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('core-math/app/release/mlmath.jar', 'titles-modeltest/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'titles-modeltest/app/libs/mlmath-sources.jar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('core-math/app/release/mlmath.jar', 'titles-hellocube/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'titles-hellocube/app/libs/mlmath-sources.jar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('core-math/app/release/mlmath.jar', 'titles-cubetest/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'titles-cubetest/app/libs/mlmath-sources.jar')
     return
 
 # Stage core-runtime project.
@@ -70,36 +80,47 @@ def stageCoreRuntime() :
     if os.path.isdir('parts-actors'):
         print "\tUpdating parts-actors"
         shutil.copy('core-runtime/app/release/mlert.jar', 'parts-actors/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'parts-actors/app/libs/mlert-sources.jar')
     if os.path.isdir('parts-base'):
         print "\tUpdating parts-base"
         shutil.copy('core-runtime/app/release/mlert.jar', 'parts-base/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'parts-base/app/libs/mlert-sources.jar')
     if os.path.isdir('parts-mrefs'):
         print "\tUpdating parts-mrefs"
         shutil.copy('core-runtime/app/release/mlert.jar', 'parts-mrefs/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'parts-mrefs/app/libs/mlert-sources.jar')
     if os.path.isdir('parts-props'):
         print "\tUpdating parts-props"
         shutil.copy('core-runtime/app/release/mlert.jar', 'parts-props/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'parts-props/app/libs/mlert-sources.jar')
     if os.path.isdir('parts-roles'):
         print "\tUpdating parts-roles"
         shutil.copy('core-runtime/app/release/mlert.jar', 'parts-roles/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'parts-roles/app/libs/mlert-sources.jar')
     if os.path.isdir('parts-sets'):
         print "\tUpdating parts-sets"
         shutil.copy('core-runtime/app/release/mlert.jar', 'parts-sets/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'parts-sets/app/libs/mlert-sources.jar')
     if os.path.isdir('parts-stages'):
         print "\tUpdating parts-stages"
         shutil.copy('core-runtime/app/release/mlert.jar', 'parts-stages/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'parts-stages/app/libs/mlert-sources.jar')
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('core-runtime/app/release/mlert.jar', 'titles-imagetest/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'titles-imagetest/app/libs/mlert-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('core-runtime/app/release/mlert.jar', 'titles-modeltest/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'titles-modeltest/app/libs/mlert-sources.jar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('core-runtime/app/release/mlert.jar', 'titles-hellocube/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'titles-hellocube/app/libs/mlert-sources.jar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('core-runtime/app/release/mlert.jar', 'titles-cubetest/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'titles-cubetest/app/libs/mlert-sources.jar')
     return
 
 # Stage parts-base project.
@@ -108,37 +129,47 @@ def stagePartsBase() :
     if os.path.isdir('parts-actors'):
         print "\tUpdating parts-actors"
         shutil.copy('parts-base/app/release/parts.jar', 'parts-actors/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'parts-actors/app/libs/parts-sources.jar')
     if os.path.isdir('parts-mrefs'):
         print "\tUpdating parts-mrefs"
         shutil.copy('parts-base/app/release/parts.jar', 'parts-mrefs/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'parts-mrefs/app/libs/parts-sources.jar')
         shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'parts-mrefs/min3d-debug/min3d-debug.aar')
     if os.path.isdir('parts-props'):
         print "\tUpdating parts-props"
         shutil.copy('parts-base/app/release/parts.jar', 'parts-props/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'parts-props/app/libs/parts-sources.jar')
     if os.path.isdir('parts-roles'):
         print "\tUpdating parts-roles"
         shutil.copy('parts-base/app/release/parts.jar', 'parts-roles/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'parts-roles/app/libs/parts-sources.jar')
         shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'parts-roles/min3d-debug/min3d-debug.aar')
     if os.path.isdir('parts-sets'):
         print "\tUpdating parts-sets"
         shutil.copy('parts-base/app/release/parts.jar', 'parts-sets/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'parts-sets/app/libs/parts-sources.jar')
     if os.path.isdir('parts-stages'):
         print "\tUpdating parts-stages"
         shutil.copy('parts-base/app/release/parts.jar', 'parts-stages/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'parts-stages/app/libs/parts-sources.jar')
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('parts-base/app/release/parts.jar', 'titles-imagetest/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'titles-imagetest/app/libs/parts-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('parts-base/app/release/parts.jar', 'titles-modeltest/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'titles-modeltest/app/libs/parts-sources.jar')
         shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'titles-modeltest/min3d-debug/min3d-debug.aar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('parts-base/app/release/parts.jar', 'titles-hellocube/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'titles-hellocube/app/libs/parts-sources.jar')
         shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'titles-hellocube/min3d-debug/min3d-debug.aar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('parts-base/app/release/parts.jar', 'titles-cubetest/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'titles-cubetest/app/libs/parts-sources.jar')
         shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'titles-cubetest/min3d-debug/min3d-debug.aar')
     if os.path.isdir('test-min3d_01'):
         print "\tUpdating test-min3d_01"
@@ -154,21 +185,27 @@ def stagePartsMrefs() :
     if os.path.isdir('parts-actors'):
         print "\tUpdating parts-actors"
         shutil.copy('parts-mrefs/app/release/mrefs.jar', 'parts-actors/app/libs/mrefs.jar')
+        shutil.copy('parts-mrefs/app/release/mrefs-sources.jar', 'parts-actors/app/libs/mrefs-sources.jar')
     if os.path.isdir('parts-roles'):
         print "\tUpdating parts-roles"
         shutil.copy('parts-mrefs/app/release/mrefs.jar', 'parts-roles/app/libs/mrefs.jar')
+        shutil.copy('parts-mrefs/app/release/mrefs-sources.jar', 'parts-roles/app/libs/mrefs-sources.jar')
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-imagetest/app/libs/mrefs.jar')
+        shutil.copy('parts-mrefs/app/release/mrefs-sources.jar', 'titles-imagetest/app/libs/mrefs-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-modeltest/app/libs/mrefs.jar')
+        shutil.copy('parts-mrefs/app/release/mrefs-sources.jar', 'titles-modeltest/app/libs/mrefs-sources.jar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-hellocube/app/libs/mrefs.jar')
+        shutil.copy('parts-mrefs/app/release/mrefs-sources.jar', 'titles-hellocube/app/libs/mrefs-sources.jar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-cubetest/app/libs/mrefs.jar')
+        shutil.copy('parts-mrefs/app/release/mrefs-sources.jar', 'titles-cubetest/app/libs/mrefs-sources.jar')
     return
 
 # Stage parts-roles project.
@@ -177,21 +214,27 @@ def stagePartsRoles() :
     if os.path.isdir('parts-props'):
         print "\tUpdating parts-props"
         shutil.copy('parts-roles/app/release/roles.jar', 'parts-props/app/libs/roles.jar')
+        shutil.copy('parts-roles/app/release/roles-sources.jar', 'parts-props/app/libs/roles-sources.jar')
     if os.path.isdir('parts-sets'):
         print "\tUpdating parts-sets"
         shutil.copy('parts-roles/app/release/roles.jar', 'parts-sets/app/libs/roles.jar')
+        shutil.copy('parts-roles/app/release/roles-sources.jar', 'parts-sets/app/libs/roles-sources.jar')
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('parts-roles/app/release/roles.jar', 'titles-imagetest/app/libs/roles.jar')
+        shutil.copy('parts-roles/app/release/roles-sources.jar', 'titles-imagetest/app/libs/roles-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('parts-roles/app/release/roles.jar', 'titles-modeltest/app/libs/roles.jar')
+        shutil.copy('parts-roles/app/release/roles-sources.jar', 'titles-modeltest/app/libs/roles-sources.jar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('parts-roles/app/release/roles.jar', 'titles-hellocube/app/libs/roles.jar')
+        shutil.copy('parts-roles/app/release/roles-sources.jar', 'titles-hellocube/app/libs/roles-sources.jar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('parts-roles/app/release/roles.jar', 'titles-cubetest/app/libs/roles.jar')
+        shutil.copy('parts-roles/app/release/roles-sources.jar', 'titles-cubetest/app/libs/roles-sources.jar')
     return
 
 # Stage parts-props project.
@@ -200,18 +243,23 @@ def stagePartsProps() :
     if os.path.isdir('parts-actors'):
         print "\tUpdating parts-actors"
         shutil.copy('parts-props/app/release/props.jar', 'parts-actors/app/libs/props.jar')
+        shutil.copy('parts-props/app/release/props-sources.jar', 'parts-actors/app/libs/props-sources.jar')
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('parts-props/app/release/props.jar', 'titles-imagetest/app/libs/props.jar')
+        shutil.copy('parts-props/app/release/props-sources.jar', 'titles-imagetest/app/libs/props-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('parts-props/app/release/props.jar', 'titles-modeltest/app/libs/props.jar')
+        shutil.copy('parts-props/app/release/props-sources.jar', 'titles-modeltest/app/libs/props-sources.jar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('parts-props/app/release/props.jar', 'titles-hellocube/app/libs/props.jar')
+        shutil.copy('parts-props/app/release/props-sources.jar', 'titles-hellocube/app/libs/props-sources.jar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('parts-props/app/release/props.jar', 'titles-cubetest/app/libs/props.jar')
+        shutil.copy('parts-props/app/release/props-sources.jar', 'titles-cubetest/app/libs/props-sources.jar')
     return
 
 # Stage parts-stages project.
@@ -220,18 +268,23 @@ def stagePartsStages() :
     if os.path.isdir('parts-sets'):
         print "\tUpdating parts-sets"
         shutil.copy('parts-stages/app/release/stages.jar', 'parts-sets/app/libs/stages.jar')
+        shutil.copy('parts-stages/app/release/stages-sources.jar', 'parts-sets/app/libs/stages-sources.jar')
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('parts-stages/app/release/stages.jar', 'titles-imagetest/app/libs/stages.jar')
+        shutil.copy('parts-stages/app/release/stages-sources.jar', 'titles-imagetest/app/libs/stages-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('parts-stages/app/release/stages.jar', 'titles-modeltest/app/libs/stages.jar')
+        shutil.copy('parts-stages/app/release/stages-sources.jar', 'titles-modeltest/app/libs/stages-sources.jar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('parts-stages/app/release/stages.jar', 'titles-hellocube/app/libs/stages.jar')
+        shutil.copy('parts-stages/app/release/stages-sources.jar', 'titles-hellocube/app/libs/stages-sources.jar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('parts-stages/app/release/stages.jar', 'titles-cubetest/app/libs/stages.jar')
+        shutil.copy('parts-stages/app/release/stages-sources.jar', 'titles-cubetest/app/libs/stages-sources.jar')
     return
 
 # Stage parts-sets project.
@@ -240,15 +293,19 @@ def stagePartsSets() :
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('parts-sets/app/release/sets.jar', 'titles-imagetest/app/libs/sets.jar')
+        shutil.copy('parts-sets/app/release/sets-sources.jar', 'titles-imagetest/app/libs/sets-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('parts-sets/app/release/sets.jar', 'titles-modeltest/app/libs/sets.jar')
+        shutil.copy('parts-sets/app/release/sets-sources.jar', 'titles-modeltest/app/libs/sets-sources.jar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('parts-sets/app/release/sets.jar', 'titles-hellocube/app/libs/sets.jar')
+        shutil.copy('parts-sets/app/release/sets-sources.jar', 'titles-hellocube/app/libs/sets-sources.jar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('parts-sets/app/release/sets.jar', 'titles-cubetest/app/libs/sets.jar')
+        shutil.copy('parts-sets/app/release/sets-sources.jar', 'titles-cubetest/app/libs/sets-sources.jar')
     return
 
 # Stage parts-actors project.
@@ -257,15 +314,19 @@ def stagePartsActors() :
     if os.path.isdir('titles-imagetest'):
         print "\tUpdating titles-imagetest"
         shutil.copy('parts-actors/app/release/actors.jar', 'titles-imagetest/app/libs/actors.jar')
+        shutil.copy('parts-actors/app/release/actors-sources.jar', 'titles-imagetest/app/libs/actors-sources.jar')
     if os.path.isdir('titles-modeltest'):
         print "\tUpdating titles-modeltest"
         shutil.copy('parts-actors/app/release/actors.jar', 'titles-modeltest/app/libs/actors.jar')
+        shutil.copy('parts-actors/app/release/actors-sources.jar', 'titles-modeltest/app/libs/actors-sources.jar')
     if os.path.isdir('titles-hellocube'):
         print "\tUpdating titles-hellocube"
         shutil.copy('parts-actors/app/release/actors.jar', 'titles-hellocube/app/libs/actors.jar')
+        shutil.copy('parts-actors/app/release/actors-sources.jar', 'titles-hellocube/app/libs/actors-sources.jar')
     if os.path.isdir('titles-cubetest'):
         print "\tUpdating titles-cubetest"
         shutil.copy('parts-actors/app/release/actors.jar', 'titles-cubetest/app/libs/actors.jar')
+        shutil.copy('parts-actors/app/release/actors-sources.jar', 'titles-cubetest/app/libs/actors-sources.jar')
     return
 
 # Parse input arguments.
