@@ -45,6 +45,7 @@ def buildLibrary(project) :
     os.chdir(project)
     subprocess.check_call(['./gradlew', 'assembleDebug'])
     subprocess.check_call(['./gradlew', 'exportJar'])
+    subprocess.check_call(['./gradlew', 'exportSourcesJar'])
     os.chdir(cwd)
     subprocess.check_call(['./mle-tools/scripts/stagelibs.py', project])
     return
