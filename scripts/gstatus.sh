@@ -171,8 +171,38 @@ then
     echo "There are changes staged, but not committed."
 fi
 
+echo " ***** Processing titles-hellocube *****"
+cd ../titles-hellocube
+git diff --exit-code > /dev/null
+rc=$?
+if [[ $rc != 0 ]]
+then
+    echo "There are local, unstaged changes."
+fi
+git diff --cached --exit-code > /dev/null
+rc=$?
+if [[ $rc != 0 ]]
+then
+    echo "There are changes staged, but not committed."
+fi
+
 echo " ***** Processing titles-modeltest *****"
 cd ../titles-modeltest
+git diff --exit-code > /dev/null
+rc=$?
+if [[ $rc != 0 ]]
+then
+    echo "There are local, unstaged changes."
+fi
+git diff --cached --exit-code > /dev/null
+rc=$?
+if [[ $rc != 0 ]]
+then
+    echo "There are changes staged, but not committed."
+fi
+
+echo " ***** Processing titles-movietest *****"
+cd ../titles-movietest
 git diff --exit-code > /dev/null
 rc=$?
 if [[ $rc != 0 ]]

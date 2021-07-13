@@ -92,6 +92,12 @@ def stageCoreMath() :
             os.makedirs('titles-cubetest/app/libs')
         shutil.copy('core-math/app/release/mlmath.jar', 'titles-cubetest/app/libs/mlmath.jar')
         shutil.copy('core-math/app/release/mlmath-sources.jar', 'titles-cubetest/app/libs/mlmath-sources.jar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('core-math/app/release/mlmath.jar', 'titles-movietest/app/libs/mlmath.jar')
+        shutil.copy('core-math/app/release/mlmath-sources.jar', 'titles-movietest/app/libs/mlmath-sources.jar')
     return
 
 # Stage core-runtime project.
@@ -163,6 +169,12 @@ def stageCoreRuntime() :
             os.makedirs('titles-cubetest/app/libs')
         shutil.copy('core-runtime/app/release/mlert.jar', 'titles-cubetest/app/libs/mlert.jar')
         shutil.copy('core-runtime/app/release/mlert-sources.jar', 'titles-cubetest/app/libs/mlert-sources.jar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('core-runtime/app/release/mlert.jar', 'titles-movietest/app/libs/mlert.jar')
+        shutil.copy('core-runtime/app/release/mlert-sources.jar', 'titles-movietest/app/libs/mlert-sources.jar')
     return
 
 # Stage parts-base project.
@@ -243,6 +255,12 @@ def stagePartsBase() :
         if not os.path.exists('titles-cubetest/min3d-debug'):
             os.makedirs('titles-cubetest/min3d-debug')
         shutil.copy('parts-base/min3d/build/outputs/aar/min3d-debug.aar', 'titles-cubetest/min3d-debug/min3d-debug.aar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('parts-base/app/release/parts.jar', 'titles-movietest/app/libs/parts.jar')
+        shutil.copy('parts-base/app/release/parts-sources.jar', 'titles-movietest/app/libs/parts-sources.jar')
     if os.path.isdir('test-min3d_01'):
         print "\tUpdating test-min3d_01"
         if not os.path.exists('test-min3d_01/min3d-debug'):
@@ -294,6 +312,12 @@ def stagePartsMrefs() :
             os.makedirs('titles-cubetest/app/libs')
         shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-cubetest/app/libs/mrefs.jar')
         shutil.copy('parts-mrefs/app/release/mrefs-sources.jar', 'titles-cubetest/app/libs/mrefs-sources.jar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('parts-mrefs/app/release/mrefs.jar', 'titles-movietest/app/libs/mrefs.jar')
+        shutil.copy('parts-mrefs/app/release/mrefs-sources.jar', 'titles-movietest/app/libs/mrefs-sources.jar')
     return
 
 # Stage parts-roles project.
@@ -335,6 +359,12 @@ def stagePartsRoles() :
             os.makedirs('titles-cubetest/app/libs')
         shutil.copy('parts-roles/app/release/roles.jar', 'titles-cubetest/app/libs/roles.jar')
         shutil.copy('parts-roles/app/release/roles-sources.jar', 'titles-cubetest/app/libs/roles-sources.jar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('parts-roles/app/release/roles.jar', 'titles-movietest/app/libs/roles.jar')
+        shutil.copy('parts-roles/app/release/roles-sources.jar', 'titles-movietest/app/libs/roles-sources.jar')
     return
 
 # Stage parts-props project.
@@ -370,6 +400,12 @@ def stagePartsProps() :
             os.makedirs('titles-cubetest/app/libs')
         shutil.copy('parts-props/app/release/props.jar', 'titles-cubetest/app/libs/props.jar')
         shutil.copy('parts-props/app/release/props-sources.jar', 'titles-cubetest/app/libs/props-sources.jar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('parts-props/app/release/props.jar', 'titles-moveietest/app/libs/props.jar')
+        shutil.copy('parts-props/app/release/props-sources.jar', 'titles-movietest/app/libs/props-sources.jar')
     return
 
 # Stage parts-stages project.
@@ -405,6 +441,12 @@ def stagePartsStages() :
             os.makedirs('titles-cubetest/app/libs')
         shutil.copy('parts-stages/app/release/stages.jar', 'titles-cubetest/app/libs/stages.jar')
         shutil.copy('parts-stages/app/release/stages-sources.jar', 'titles-cubetest/app/libs/stages-sources.jar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('parts-stages/app/release/stages.jar', 'titles-movietest/app/libs/stages.jar')
+        shutil.copy('parts-stages/app/release/stages-sources.jar', 'titles-movietest/app/libs/stages-sources.jar')
     return
 
 # Stage parts-sets project.
@@ -434,6 +476,12 @@ def stagePartsSets() :
             os.makedirs('titles-cubetest/app/libs')
         shutil.copy('parts-sets/app/release/sets.jar', 'titles-cubetest/app/libs/sets.jar')
         shutil.copy('parts-sets/app/release/sets-sources.jar', 'titles-cubetest/app/libs/sets-sources.jar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('parts-sets/app/release/sets.jar', 'titles-movietest/app/libs/sets.jar')
+        shutil.copy('parts-sets/app/release/sets-sources.jar', 'titles-movietest/app/libs/sets-sources.jar')
     return
 
 # Stage parts-actors project.
@@ -463,6 +511,12 @@ def stagePartsActors() :
             os.makedirs('titles-cubetest/app/libs')
         shutil.copy('parts-actors/app/release/actors.jar', 'titles-cubetest/app/libs/actors.jar')
         shutil.copy('parts-actors/app/release/actors-sources.jar', 'titles-cubetest/app/libs/actors-sources.jar')
+    if os.path.isdir('titles-movietest'):
+        print "\tUpdating titles-movietest"
+        if not os.path.exists('titles-movietest/app/libs'):
+            os.makedirs('titles-movietest/app/libs')
+        shutil.copy('parts-actors/app/release/actors.jar', 'titles-movietest/app/libs/actors.jar')
+        shutil.copy('parts-actors/app/release/actors-sources.jar', 'titles-movietest/app/libs/actors-sources.jar')
     return
 
 # Parse input arguments.
