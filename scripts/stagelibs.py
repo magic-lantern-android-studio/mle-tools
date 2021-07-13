@@ -404,7 +404,7 @@ def stagePartsProps() :
         print "\tUpdating titles-movietest"
         if not os.path.exists('titles-movietest/app/libs'):
             os.makedirs('titles-movietest/app/libs')
-        shutil.copy('parts-props/app/release/props.jar', 'titles-moveietest/app/libs/props.jar')
+        shutil.copy('parts-props/app/release/props.jar', 'titles-movietest/app/libs/props.jar')
         shutil.copy('parts-props/app/release/props-sources.jar', 'titles-movietest/app/libs/props-sources.jar')
     return
 
